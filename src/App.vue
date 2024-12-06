@@ -1,10 +1,13 @@
 <template>
+<MainView />
 <Contador />
+<ListaDeTareas />
 </template>
 
 <script setup>
 
-import Contador from './components/MiContador.vue';
+import MainView from './views/MainView.vue';
+
 
 </script>
 
