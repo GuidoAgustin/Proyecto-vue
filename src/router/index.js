@@ -13,12 +13,17 @@ const router = createRouter({
 {
   path: '/MiContador',
   name: 'contador',
-  component: () => import('../components/MiContador.vue'),
+  component: () => import('../Modules/contador/components/MiContador.vue'),
 },
 {
   path: '/ListaDeTareas',
   name: 'listaDeTareas',
-  component: () => import('../components/ListaDeTareas.vue'),
+  component: () => import('../Modules/listaDeTareas/components/ListaDeTareas.vue'),
+},
+{
+  path: '/Registrar',
+  name: 'Registrar',
+  component: () => import('../Modules/Registro/views/RegistrarView.vue'),
 },
    ],
 })
